@@ -61,7 +61,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
 current = true
 
 [node name="Gun" type="MeshInstance3D" parent="Player/Pivot"]
-transform = Transform3D(-8, 0, -6.99382e-07, 0, 8, 0, 6.99382e-07, 0, -8, 0.4, -0.2, -0.4)
+transform = Transform3D(-8, 0, -6.99382e-07, 0, 8, 0, 6.99382e-07, 0, -8, 0.4, -0.18, -0.4)
 mesh = ExtResource("2_l20nm")
 skeleton = NodePath("../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_wvfdf")
